@@ -2,3 +2,13 @@ numero = int(input("Informe um número: "))
 
 for i in range(1, 11):
     print(f"{numero} x {i} = {numero * i}")
+
+
+# Recebe um número digitado pelo usuário e converte para inteiro.
+numero = int(input("Informe um número: "))
+
+# Repete o processo de 1 até 10 para formar a tabuada.
+for i in range(1, 11):
+
+    # Exibe cada operação e o resultado da multiplicação.
+    print(f"{numero} x {i} = {numero * i}")
